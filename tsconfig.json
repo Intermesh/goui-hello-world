@@ -8,6 +8,7 @@
     "sourceMap": true,
     "module":"es2020",
     "esModuleInterop": true,
+    "isolatedModules": true,
     "outDir": "./dist", //set this in the extended
     "baseUrl": "."
 
