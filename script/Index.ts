@@ -1,6 +1,5 @@
-import {comp} from "@goui/component/Component.js";
-import {root} from "@goui/component/Root.js";
-import {btn} from "@goui/component/Button.js";
+import { btn, comp, root } from "@intermesh/goui";
+
 
 root.items.add(
 	comp({tagName: "h1", text: "Hello World!"}),

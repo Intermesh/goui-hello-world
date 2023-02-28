@@ -9,10 +9,7 @@
     "module":"es2020",
     "esModuleInterop": true,
     "outDir": "./dist", //set this in the extended
-    "baseUrl": ".", //set this in the extended too
-    "paths": {
-      "@goui/*": ["./node_modules/@intermesh/goui/dist/*"]
-    }
+    "baseUrl": "."
 
   }
 }
