@@ -13,7 +13,7 @@
     "build": "npm run build:clean && npm run build:sass && npm run build:ts",
     "build:clean": "rm -rf ./dist/*",
     "build:sass": "npx sass --style=compressed ./style:./dist",
-    "build:ts": "npx esbuild ./script/Index.ts --bundle --metafile=dist/meta.json  --sourcemap --format=esm --target=esnext --outdir=dist"
+    "build:ts": "npx esbuild ./script/Index.ts --minify --bundle --sourcemap --format=esm --target=esnext --outdir=dist"
   },
   "dependencies": {
     "@intermesh/goui": "^1.0.2"
