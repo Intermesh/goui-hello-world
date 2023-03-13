@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Hello World in GOUI</title>
 
-    <meta charset="UTF-8">
     <meta theme-color="black">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--    <link rel="icon"-->
-<!--          type="image/png"-->
-<!--          href="../resources/favicon.png">-->
+    <link rel="icon"
+          type="image/x-icon"
+          href="./favicon.ico">
 
-    <style>
-        body, html {
-            margin: 0;
-            padding:0;
-        }
-    </style>
     <link href="./node_modules/@intermesh/goui/dist/lato.css" rel="stylesheet">
     <link href="./node_modules/@intermesh/goui/dist/goui.css" rel="stylesheet">
     <link href="./dist/style.css" rel="stylesheet">
-    <script type="module" src="./dist/Index.js"></script>
+
+    <!--    Make sure fonts are loaded before rendering -->
+    <link rel="preload" href="./node_modules/@intermesh/goui/resources/font/Lato-Semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous" >
+    <link rel="preload" href="./node_modules/@intermesh/goui/resources/font/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./node_modules/@intermesh/goui/resources/font/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'self' data:; style-src 'unsafe-inline' 'self'; script-src 'self'; child-src 'none'; connect-src 'self'; img-src data: blob: 'self'">
 
-</head>
 <body>
+<script src="./dist/Index.js"></script>
 
-</body>
-</html>
