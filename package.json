@@ -1,9 +1,10 @@
 {
+  "type": "module",
   "devDependencies": {
-    "concurrently": "^7.6.0",
-    "esbuild": "^0.16.17",
-    "sass": "^1.58.3",
-    "typescript": "^4.9.5"
+    "concurrently": "latest",
+    "esbuild": "latest",
+    "sass": "latest",
+    "typescript": "latest"
   },
   "scripts": {
     "start": "concurrently --kill-others \"npm run start:serve\"  \"npm run start:sass\"",
@@ -16,6 +17,6 @@
     "build:ts": "npx esbuild ./script/Index.ts --minify --bundle --sourcemap --format=esm --target=esnext --outdir=dist"
   },
   "dependencies": {
-    "@intermesh/goui": "^1.0.2"
+    "@intermesh/goui": "latest"
   }
 }

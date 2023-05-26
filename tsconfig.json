@@ -11,6 +11,9 @@
     "isolatedModules": true,
     "outDir": "./dist", //set this in the extended
     "baseUrl": "."
+  },
 
-  }
+  "include": [
+    "./script"
+  ]
 }

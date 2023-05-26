@@ -1,8 +1,10 @@
-import {btn, comp, root} from "@intermesh/goui";
+import {btn, comp, h2, p, root} from "@intermesh/goui";
 
 root.items.add(
-	comp({tagName: "h1", text: "Hello World!"}),
-	comp({tagName: "p", text: "Welcome to the simplest GOUI application."}),
+	h2("Hello World!"),
+
+	p("Welcome to the simplest GOUI application."),
+
 	btn({
 		text: "Visit docs",
 		cls: "primary",
