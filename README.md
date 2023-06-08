@@ -1,6 +1,8 @@
 # goui-hello-world
 Hello World Application for GOUI
 
+You need to have [git](https://git-scm.com/) and [npm](https://www.npmjs.com) installed.
+
 Clone this repository and run from this directory:
 
 ```
