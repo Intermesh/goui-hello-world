@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "concurrently --kill-others \"npm run start:serve\"  \"npm run start:sass\"",
-    "start:serve": "npx esbuild ./script/Index.ts --bundle --serve=localhost:8081 --servedir=. --external:./dist/* --external:./script/*  --sourcemap --format=esm --target=esnext --outdir=dist",
+    "start:serve": "npx esbuild ./script/Index.ts --bundle --serve=localhost:8081 --servedir=. --external:./dist/*  --sourcemap --format=esm --target=esnext  --outdir=dist",
     "start:sass": "npx sass --watch ./style:./dist",
 
     "build": "npm run build:clean && npm run build:sass && npm run build:ts",

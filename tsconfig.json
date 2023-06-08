@@ -4,13 +4,11 @@
     "target": "ES2017",
     "lib": ["es2020", "dom"],
     "moduleResolution": "node",
-  
-    "sourceMap": true,
     "module":"es2020",
     "esModuleInterop": true,
     "isolatedModules": true,
-    "outDir": "./dist", //set this in the extended
-    "baseUrl": "."
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
   },
 
   "include": [
