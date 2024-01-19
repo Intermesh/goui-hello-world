@@ -1,4 +1,4 @@
-import {btn, comp, h2, p, root} from "@intermesh/goui";
+import {btn, h2, p, root} from "@intermesh/goui";
 
 root.items.add(
 	h2("Hello World!"),
