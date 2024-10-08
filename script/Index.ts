@@ -8,7 +8,7 @@ root.items.add(
 	btn({
 		text: "Visit docs",
 		cls: "filled primary",
-		handler: () => window.open("https://github.com/intermesh/goui-docs/")
+		handler: () => window.open("https://goui.io")
 	})
 
 );
